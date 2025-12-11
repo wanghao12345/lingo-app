@@ -1,6 +1,12 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
+
+pub mod ssh;
+
+
+
 #[tauri::command]
 fn greet(name: &str) -> String {
+    ssh::connect::connect();
     format!("Hello, {}! You've been greeted from Rust!", name)
 }
 
