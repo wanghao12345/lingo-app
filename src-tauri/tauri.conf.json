@@ -12,9 +12,9 @@
   "app": {
     "windows": [
       {
-        "title": "lingo-app",
-        "width": 800,
-        "height": 600
+        "title": "Lingo",
+        "width": 1400,
+        "height": 800
       }
     ],
     "security": {
