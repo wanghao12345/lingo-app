@@ -50,7 +50,8 @@ function onClickMenuItem(key) {
 .layout-demo {
     height: 100%;
     background: var(--color-fill-2);
-    border: 1px solid var(--color-border);
+    // border: 1px solid var(--color-border);
+    box-sizing: border-box;
     :deep(.arco-menu) {
         .arco-menu-item {
             display: flex;

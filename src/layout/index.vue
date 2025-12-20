@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-full">
         <div class="w-full h-50px bg-white box-border p-10px flex items-center">
-            <div class="w-180px h-30px flex-shrink-0 mr-20px bg-[#eeeeee] cursor-pointer" @click="handleLogoClick"></div>
+            <div class="w-180px h-30px flex-shrink-0 mr-10px bg-[#eeeeee] cursor-pointer" @click="handleLogoClick"></div>
             <div class="flex-1 h-full tab-box">
                 <a-tabs :editable="true" @tab-click="handleTabClick" @add="handleAdd" @delete="handleDelete"
                     show-add-button auto-switch>
