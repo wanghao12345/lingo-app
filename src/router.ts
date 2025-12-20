@@ -23,7 +23,14 @@ const router = createRouter({
               path: "home",
               component: () => import("@/views/Home.vue"),
             },
-
+            {
+              path: "file-manage",
+              component: () => import("@/views/FileManage.vue"),
+            },
+            {
+              path: "command-line",
+              component: () => import("@/views/CommandLine.vue"),
+            },
           ]
         },
         {
